@@ -51,7 +51,7 @@ padding: 12px 49px;
 	text-align: center;
 	background-color: grey;
 	color: black;
-	width: 50%;
+	width: 100%;
 	margin: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -69,11 +69,12 @@ padding: 12px 49px;
 	text-align: center;
 	background-color: grey;
 	color: black;
-	width: 100%;
+	width: 50%;
 	margin: auto;
 	margin-left: auto;
 	margin-right: auto;
 
+}
 }
 .myskill{
 	border: 2px black;
