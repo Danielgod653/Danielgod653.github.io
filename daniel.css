@@ -29,15 +29,7 @@ h1{
 .i{
 	text-decoration:underline;
 }
-.downav{
-	text-align: center;
-	background-color: grey;
-	color: black;
-	width: 80%;
-	margin: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .bar{
 background-color: white;
 text-align: center;
@@ -55,6 +47,15 @@ width:50%;
 padding: 12px 49px;
 
 }
+	.downav{
+	text-align: center;
+	background-color: grey;
+	color: black;
+	width: 50%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
 }
 @media   (min-width: 600px){
 	.progress{
@@ -63,6 +64,16 @@ width:70%;
 padding: 12px 49px;
 
 }
+	
+.downav{
+	text-align: center;
+	background-color: grey;
+	color: black;
+	width: 100%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .myskill{
 	border: 2px black;
