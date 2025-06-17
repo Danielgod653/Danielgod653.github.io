@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<meta name="viewport" content="width=device-width initial scale=1.0">
+<style type="text/css">
+	#btn{
+		color: orange;
+		background-color: white;
+		padding: 13px;
+		font-size: 32px;
+
+
+}
+#btn1{
+	color:white;
+	background-color: orange;
+	padding:13px 14px;
+	font-size: 32px ;
+}
+.class1{
+	background-color:white;
+	color:orange; 
+}
+.class2{
+	background-color: orange;
+	color: white;
+}
+body{
+	object-position: center;
+	align-content: center;
+}
+#screen{
+	border:2px black;
+	text-align: center;
+	font-size: 32px;
+}
+.functions{
+	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<br><div id="screen"></div><br>
+	<div class="functions"><br><button id="btn" onclick="one()" >1</button>
+	<button id="btn" onclick="two()">2</button>
+	<button id="btn" onclick="three()">3</button>
+	<button id="btn1" onclick="AC()">AC</button><br>
+<button id="btn" onclick="four()">4</button>
+<button id="btn" onclick="five()">5</button>
+<button id="btn" onclick="six()">6</button>
+<button id="btn1" onclick="plus()">+</button><br>
+<button id="btn" onclick="seven()">7</button>
+<button id="btn" onclick="eight()" >8</button>
+<button id="btn" onclick="nine()">9</button>
+<button id="btn1" onclick="minus()" >-</button><br>
+<button id="btn" onclick="zero()">0</button>
+<button id="btn1" onclick="divide()">/</button>
+<button id="btn1" onclick="multiply()">*</button>
+<button id="btn1" onclick="equal()">=</button>
+</div>
+<script type="text/javascript">
+	let screen=document.getElementById('screen');
+	function one(){
+		screen.innerHTML+=1;
+	}
+	function two(){
+		screen.innerHTML+=2;
+	}
+	function three(){
+		screen.innerHTML+=3;
+	}
+	function four(){
+		screen.innerHTML+=4;
+	}
+	function five(){
+		screen.innerHTML+=5;
+	}
+	function six(){
+		screen.innerHTML+=6;
+	}
+	function seven(){
+		screen.innerHTML+=7;
+	}
+	function eight(){
+		screen.innerHTML+=8;
+	}
+	function nine(){
+		screen.innerHTML+=9;
+	}
+	function zero(){
+		screen.innerHTML+=0;
+	}
+	function AC(){
+		screen.innerHTML=null;
+
+	}
+	function plus(){
+		screen.innerHTML+= "+";
+	}
+	function minus(){
+		screen.innerHTML+="-";
+	}
+	function divide(){
+		screen.innerHTML+="/";
+	}
+	function multiply(){
+		screen.innerHTML+="*";
+	}
+	function equal(){
+		screen.innerHTML= eval(screen.innerHTML);
+	}
+</script>
+
+</body>
+</html>

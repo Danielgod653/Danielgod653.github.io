@@ -1,0 +1,20 @@
+{"short_name":"bin conv",
+"name":"binary converter",
+"icons":[
+{
+	"src":"/binary.png",
+	"sizes":"192*192",
+	"type":"image/png"
+},
+{
+	"src":"/binary.png",
+	"sizes":"512*512",
+	"type":"image/png"
+}
+]
+,
+"start_url":"",
+"display":"standalone",
+"theme_color":"white",
+"background_color":"#ffffff"
+}
